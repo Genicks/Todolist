@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(51 51 51);
+  color: white;
+}
+
+.list, 
+.container{
+  display: grid;
+  grid-template-columns: 200px 150px 100px ;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.container{
+  margin-bottom: 20px;
+  align-items: stretch;
+}
+
+.input{
+  font-size: 15pxpx;
+  padding: 6px;
+  border-style: none;
+}
+
+.addBtn{
+  background-color: green;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  height: str;
+}
+
+/*.delBtn{
+  background-color: darkred;
+  border: none;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 10px 0px;
+  width: 80px;
+}
+*/
